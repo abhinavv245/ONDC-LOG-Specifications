@@ -30,7 +30,7 @@ function loadSteps(steps) {
       "</p>" +
       "</div>" +
       '<pre class="yaml-content">' +
-      JSON.stringify(step.example.value, null, 2) +
+      JSON.stringify(step?.example?.value, null, 2) +
       "</pre>";
 
     link.addEventListener("click", function (event) {
